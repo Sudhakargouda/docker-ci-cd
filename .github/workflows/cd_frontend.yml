@@ -1,5 +1,5 @@
 
-name: Continuous Deployment (Prod) (Backend)
+name: Continuous Deployment (Prod) (frontend)
 on:
   push:
     branches: [ main ]

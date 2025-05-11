@@ -61,4 +61,7 @@ for frontend
 docker build --build-arg DATABASE_URL="postgres" -t todo-app-backend -f ./docker/Dockerfile.frontend .
 make todo-app-frontend while i didnot make 
 
+//to run database db cmd
+docker run --name my-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres
+
 

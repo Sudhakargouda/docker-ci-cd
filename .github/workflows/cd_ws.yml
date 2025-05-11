@@ -1,5 +1,5 @@
 
-name: Continuous Deployment (Prod) (Backend)
+name: Continuous Deployment (Prod) (Backend websocket)
 on:
   push:
     branches: [ main ]
