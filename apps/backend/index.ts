@@ -9,7 +9,7 @@ app.get("/users", async (req, res) => {
     const users = await prismaClient.user.findMany();
     res.json(users);
   } catch (err) {
-    res.status(500).json({ message: "no data found"});
+    res.status(500).json({ message: "no data found please find and add bro"});
   }
 });
 
